@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&family=Neonderthaw&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300&family=Moon+Dance&family=Neonderthaw&family=Parisienne&display=swap');
+
 
 body {
    background: hsl(246, 30%, 23%);
@@ -14,10 +15,14 @@ body {
 }
 div h1 {
    
-    color: rgb(193, 192, 206);
+    color: rgb(24, 185, 181 );
     font-size: 100px;
     margin: center;
     font-family: 'Neonderthaw', cursive;
+}
+
+h1 {
+    padding-left: 75px;
 }
   
 #main {
@@ -27,4 +32,25 @@ div h1 {
     margin-right: 30px;
     padding-left: 15px;
     padding-right: 15px;
+    padding-bottom: 95px;
+    box-shadow: 10px;
+}
+.float-right{
+    float: right;
+    border-radius: 50%;
+    max-height: 400px;
+    max-width: 400px;
+    margin-right: 50px;
+    margin-top: 50px;
+    
+}
+h2{
+    color: rgb(193, 192, 206); 
+    opacity: .45; 
+    font-size: 60px;
+    padding-left: 50px;
+    font-family: 'Frank Ruhl Libre', serif;
+}
+h2 span{
+    font-family: "Parisienne" , cursive;
 }
