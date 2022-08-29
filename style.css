@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300&family=Moon+Dance&family=Neonderthaw&family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;700&family=Moon+Dance&family=Neonderthaw&family=Parisienne&display=swap');
 
 
 body {
@@ -25,7 +25,7 @@ h1 {
     padding-left: 75px;
 }
   
-#main {
+#intro {
     background-color: hsla(246, 15%, 29%,.45); 
     background-size: 50%;
     margin-left: 30px;
@@ -34,6 +34,7 @@ h1 {
     padding-right: 15px;
     padding-bottom: 95px;
     box-shadow: 10px;
+    border-radius: 15px;
 }
 .float-right{
     float: right;
@@ -53,4 +54,16 @@ h2{
 }
 h2 span{
     font-family: "Parisienne" , cursive;
+}
+.projects{
+    color: rgb(218, 217, 227);
+    font-family:'Frank Ruhl Libre', serif;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.showcase{
+    max-height: 500px;
+    max-width: 500px;
+    font-size: 20px;
 }
