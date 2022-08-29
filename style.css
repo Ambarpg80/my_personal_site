@@ -1,27 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&family=Neonderthaw&display=swap');
 
 body {
-   background-color: hsl(185, 96%, 28%); 
+   background-image: radial-gradient(circle,hsl(254, 44%, 16%),hsl(246, 30%, 23%),hsl(246, 15%, 29%))
 }
 
 #navigation a{
-    font-family: 'Neonderthaw', cursive;
+    font-family: 'Moon Dance', cursive;
     font-size: 25px;
-    color: rgb(249, 236, 135);
+    color: rgb(218, 217, 227);
     padding-left: 50px;
     padding-right: 50px;
 }
 div h1 {
    
-    color: hwb(0 0% 2% / 0.722);
-    opacity: 100%;
+    color: rgb(193, 192, 206);
     font-size: 100px;
     margin: center;
     font-family: 'Neonderthaw', cursive;
 }
   
 #main {
-    background-color: hsla(54, 68%, 89%, 0.907); 
+    background-color: hsla(246, 2%, 24%, 0.40); 
     background-size: 50%;
     margin-left: 30px;
     margin-right: 30px;
