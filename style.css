@@ -68,7 +68,7 @@ h2 span{
 }
 
 .showcase {
-    height: 600px;
+    min-height: 500px;
     max-width: 70%;
     font-size: 20;
     border: 1px solid rgb(24, 185, 181 );
